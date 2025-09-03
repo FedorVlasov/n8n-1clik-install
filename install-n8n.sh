@@ -2,7 +2,7 @@
 
 # Скрипт для развертывания n8n на Ubuntu VPS
 # Поддерживает Ubuntu 20.04, 22.04, 24.04 LTS
-# Автор: AI Assistant
+# Автор: Viacheslav Lykov | https://t.me/JumbleAI
 
 set -e
 
