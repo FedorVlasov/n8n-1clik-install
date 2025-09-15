@@ -471,7 +471,7 @@ After=docker.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-WorkingDirectory=$(pwd)/$PROJECT_DIR
+WorkingDirectory=$ORIGINAL_DIR/$PROJECT_DIR
 ExecStart=/usr/bin/docker compose up -d
 ExecStop=/usr/bin/docker compose down
 TimeoutStartSec=0
